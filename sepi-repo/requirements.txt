@@ -1,0 +1,15 @@
+# SEPI 2.0 Requirements
+# Core dependencies for bioinformatics sequence retrieval and data processing
+
+# NCBI API access and sequence parsing
+biopython>=1.81
+
+# Data manipulation and CSV output
+pandas>=1.5.0
+
+# YAML configuration file support
+pyyaml>=6.0
+
+# Development and testing (optional)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0

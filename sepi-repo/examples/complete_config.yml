@@ -1,0 +1,23 @@
+# SEPI 2.0 Complete Configuration Example
+# This file demonstrates all available configuration options
+
+# Basic settings
+organism: "Escherichia coli"
+proteins: "AcrA,AcrB,TolC"
+protein_list: "examples/ecoli_proteins.txt"
+output_name: "ecoli_efflux_analysis"
+
+# Advanced settings
+settings:
+  # Genome assembly filtering
+  assembly_level: "complete_genome"
+
+  # BioSample metadata filtering
+  biosample_query: "host=human AND collection_date=2020"
+
+  # Output options
+  multi_fasta: true
+  html_report: true
+
+# User information (required by NCBI)
+user_email: "researcher@university.edu"

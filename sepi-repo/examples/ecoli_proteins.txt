@@ -1,0 +1,7 @@
+AcrA
+AcrB
+TolC
+AcrR
+MarA
+OmpF
+OmpC

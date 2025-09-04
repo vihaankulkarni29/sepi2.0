@@ -1,0 +1,8 @@
+organism: "Staphylococcus aureus"
+protein_list: "saureus_targets.txt"
+output_name: "saureus_virulence_factors"
+settings:
+  assembly_level: "chromosome"
+  multi_fasta: true
+  html_report: true
+user_email: "researcher@lab.edu"
